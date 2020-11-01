@@ -47,7 +47,7 @@ class EmojiController extends Controller
      */
     public function show(Emoji $emoji)
     {
-        //
+        return view("emoji.show", compact('emoji'));
     }
 
     /**
